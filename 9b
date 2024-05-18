@@ -13,3 +13,8 @@ class Agent:
 
     def move_to_patch(self, new_position):
         self.position = new_position
+
+class World:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
